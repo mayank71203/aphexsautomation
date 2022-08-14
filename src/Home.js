@@ -9,7 +9,7 @@ function Home(){
             </div>
             </div>
             <div className="home-content2">
-                Try it yourself. Download now.
+                Try it yourself for free. Download now.
             </div>
             <div className='download-app'>
 
