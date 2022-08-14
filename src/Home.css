@@ -1,0 +1,58 @@
+.Home{
+    display:flex;
+    height:100vh;
+    /* grid-template-columns: 50vw 50vw;
+    grid-template-rows: 50vw 50vw; */
+    background-image: radial-gradient(rgb(167, 186, 210) ,rgb(11, 83, 143) 80%);
+    /* position: relative; */
+    width:100%
+}
+.home-content{
+    /* grid-column: 1/2; */
+    flex:1;
+    margin:auto;
+}
+.home-content1{
+    /* grid-column: 1/2; */
+    font-size: 5vw;
+    /* position: center; */
+    margin: auto;
+    text-align: center;
+    color: aliceblue;
+    /* font-family: 'Pirata One', cursive; */
+    font-family: 'Times New Roman', Times, serif;
+}
+.home-content2{
+    text-align: center;
+    font-size: 3vw;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px 0px 10px 0px;
+
+}
+.home-image{
+    flex:1;
+    position:relative;
+}
+
+.download-app{
+    display:grid;
+    grid-template-columns:10vw 5vw 10vw;
+    grid-template-rows: 3vw;
+    /* grid-column-start:5vh; */
+    justify-content:center;
+    
+
+}
+.Image{
+    width:100%;
+    height:100%;
+    border: solid 1px white;
+    border-radius: 5px;
+
+    /* padding:10px; */
+}
+/* .appstore image{
+    height: 100%;
+    width: 100% ;
+}  */
