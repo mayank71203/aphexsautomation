@@ -1,3 +1,22 @@
+git clone https://github.com/AphexsAutomations/Aphexs_webdev.git
+
+cd Aphexs_webdev
+
+code .
+
+npm i 
+
+or
+
+yarn 
+
+npm start 
+
+or 
+
+yarn start
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
