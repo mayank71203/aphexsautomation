@@ -7,10 +7,10 @@ function info(){
             <div className='info-div1-left'>
                 <div className='info-div1-left-up'>
                     
-                        <p>Automate</p>
-                        <p>Like</p>
-                        <p>Never</p>
-                        <p>Before</p>
+                        <p className=".info-div1-left-up-p">Automate</p>
+                        <p className=".info-div1-left-up-p">Like</p>
+                        <p className=".info-div1-left-up-p">Never</p>
+                        <p className=".info-div1-left-up-p">Before</p>
                     
 
                 </div>
