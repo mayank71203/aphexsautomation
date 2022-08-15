@@ -1,11 +1,19 @@
 git clone https://github.com/AphexsAutomations/Aphexs_webdev.git
+
 cd Aphexs_webdev
+
 code .
+
 npm i 
+
 or
+
 yarn 
+
 npm start 
+
 or 
+
 yarn start
 
 
