@@ -1,0 +1,139 @@
+.MobiTech1{
+    display:flex;
+}
+.MobiTech1-left{
+    flex:1;
+    display:grid;
+    grid-template-columns: 10vw 35vw 5vw ;
+    grid-template-rows: 7vw auto;
+}
+.MobiTech1-left div{
+    grid-area: 2/2/3/3;
+    font-size: 4vw;
+}
+.MobiTech1-right{
+    flex:1;
+    display: grid;
+    grid-template-columns: 5vw 15vw 15vw 15vw;
+    grid-template-rows: 7vw 6vw auto 5vw 3vw 7vw;
+}
+.MobiTech1-right div:nth-child(1){
+    grid-area:2/2/3/4 ;
+    font-size: 2vw;
+}
+.MobiTech1-right div:nth-child(2){
+    grid-area: 3/2/4/4;
+    line-height: 2vw;
+    font-size: 1.5vw;
+    color: rgba(50, 50, 50, 0.646);
+}
+.MobiTech1-right div:nth-child(3){
+    grid-area: 5/2/6/3;
+    border: solid 1px black;
+    display:flex;
+    border-radius: 0.5vw;
+}
+.MobiTech1-right div:nth-child(3) div{
+    text-align: center;
+    margin: auto;
+    font-size: 1.5vw;
+    /* color:rgba(50, 50, 50, 0.646); */
+    transition-property: background;
+    transition-duration: 5s;
+    transition-timing-function:ease-in-out ;
+}
+
+.MobiTech1-right div:nth-child(3):hover{
+    cursor: pointer;
+    background-color:rgb(2, 140, 131) ;
+    color:white;
+}
+
+
+.MobiTech2{
+    display:flex;
+}
+
+
+.MobiTech2-left{
+    flex:1;
+    display: grid;
+    grid-template-rows: 10vw 10vw 3vw 1vw 6vw auto auto;
+    grid-template-columns: 10vw 20vw 20vw;
+}
+.MobiTech2-left div:nth-child(1){
+    grid-area: 2/2/3/4;
+    font-size: 4vw;
+}
+.MobiTech2-left div:nth-child(2){
+    grid-area: 3/2/4/3;
+    font-size: 2vw;
+    color: rgba(50, 50, 50, 0.646);
+}
+.MobiTech2-left div:nth-child(3){
+    grid-area: 5/2/6/3;
+    font-size: 2vw;
+    color: rgba(50, 50, 50, 0.758);
+    
+}
+.MobiTech2-left div:nth-child(4){
+    grid-area: 6/2/7/3;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: rgba(34, 34, 34, 0.646);
+    
+}
+.MobiTech2-right{
+    flex:1;
+    display:grid;
+    grid-template-columns: 12.5vw 22.5vw auto;
+    grid-template-rows: 7vw 45vw 5vw;
+}
+
+.MobiTech2-right img{
+    grid-area: 2/2/3/3;
+    height:100%;
+    width: 100%;
+}
+
+.MobiTech3{
+    display: flex;
+}
+.MobiTech3-left{
+    flex:3;
+    display:grid;
+    grid-template-columns: 10vw 45vw auto;
+    grid-template-rows: 5vw 22.5vw 7vw;
+}
+.MobiTech3-left div{
+    grid-area: 2/2/3/3;
+    height: 100%;
+    width: 100%;
+}
+.MobiTech3-left img{
+    /* grid-area: 2/2/3/3; */
+    height: 100%;
+    width: 100%;
+}
+.MobiTech3-right{
+    flex:2;
+    display:grid;
+    grid-template-columns: 5vw 20vw 15vw;
+    grid-template-rows: 5vw 3vw 1vw 6vw auto;
+}
+.MobiTech3-right div:nth-child(1){
+    grid-area: 2/2/3/3;
+    font-size: 2vw;
+    color: rgba(50, 50, 50, 0.646);
+}
+.MobiTech3-right div:nth-child(2){
+    grid-area: 4/2/5/3;
+    font-size: 2vw;
+    color: rgba(50, 50, 50, 0.758);
+}
+.MobiTech3-right div:nth-child(3){
+    grid-area: 5/2/6/3;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    color: rgba(50, 50, 50, 0.646);
+}
