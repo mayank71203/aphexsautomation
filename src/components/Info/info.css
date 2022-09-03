@@ -15,7 +15,7 @@
 .info-div1-left-up{
     grid-area:2/3/3/4;
     font-size: 5vw;
-    line-height: 2vw;
+    /* line-height: 2vw; */
     
 }
 .info-div1-left-up p{
@@ -43,6 +43,42 @@
     font-size: 2vw;
     /* float:center; */
     /* clear:left; */
+}
+
+/* for smaller screens */
+@media screen and (max-width:800px) {
+    .info-div1{
+        display:block;
+        background-image: linear-gradient(to bottom left,rgb(11,83,143),aliceblue 50%);
+    }
+    .info-div1-left{
+        display:grid;
+        grid-template-columns: 30vw 70vw;
+        grid-template-rows: auto auto;
+
+    }
+    .info-div1-left-up{
+        grid-area: 1/2/2/3;
+        padding-top: 5vw;
+        padding-right: 2vw;   
+    }
+    .info-div1-left-up p{
+        margin-top:0px;
+        margin-bottom:0px;
+        padding-top: 5vw;
+        padding-right:2vw;
+        padding-bottom: 2vw;
+        font-size: 10vw;
+        color:black;
+    }
+    .info-div1-left-down{
+        padding: 5vw;
+        grid-area: 2/1/3/3;
+        color:black;
+        font-size: 6vw;
+        text-align: left;
+    }
+    
 }
 
 .info-div1-right{
@@ -74,6 +110,46 @@
     border:solid 1px black;
 }
 
+@media screen and (max-width:800px){
+    .info-div1-right{
+        display:flex;
+        flex-direction:column;
+        padding-top:2vw;
+        padding-bottom: 5vw;
+        flex-wrap:wrap;
+        justify-content: space-evenly;
+        
+    }
+    .info-div1-right-div{
+        height:50vw;
+        min-width:80vw;
+        /* position:relative; */
+        margin: auto;
+        /* left:10vw; */
+        padding-bottom:2vw;
+        background-color: white;
+    }
+
+    
+    .info-div1-right-div:nth-child(1){
+        /* grid-area:2/2/4/3; */
+        border:solid 1px black;
+    }
+    .info-div1-right-div:nth-child(2){
+        /* grid-area:2/2/4/3; */
+        border:solid 1px black;
+    }
+    .info-div1-right-div:nth-child(3){
+        /* grid-area:2/2/4/3; */
+        border:solid 1px black;
+    }
+    .info-div1-right-div:nth-child(4){
+        /* grid-area:2/2/4/3; */
+        border:solid 1px black;
+    }
+    
+}
+
 
 /* page 2 */
 
@@ -90,6 +166,7 @@
     flex-wrap: wrap;
     background-image: linear-gradient(to left,white 62.5%,rgb(11,83,143));
 }
+
 .img1{
     flex:1;
 }
@@ -101,6 +178,7 @@
     grid-template-rows: 5vw 35vw 5vw;
     
 }
+
 .page1img{
     grid-area:2/2/3/3;
 
@@ -130,6 +208,7 @@
 }
 
 
+
 .discription2{
     flex:1;
     display: grid;
@@ -149,6 +228,8 @@
 }
 
 
+
+
 .discription3{
     flex:1;
     display: grid;
@@ -166,6 +247,112 @@
     font-size:2vw;
     /* padding-bottom: 4vw; */
 }
+
+@media screen and (max-width:800px) {
+
+    .page1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .page2{
+        display: flex;
+        flex-wrap: wrap-reverse;
+    }
+    .page3{
+        display: flex;
+        flex-wrap: wrap;
+        background-image: linear-gradient(45deg ,white 62.5%,rgb(11,83,143));
+    }
+    
+    .img1{
+        flex:1;
+    }
+    
+    
+    .img1{
+        display: grid;
+        grid-template-columns: 10vw 80vw 10vw;
+        grid-template-rows: 10vw 80vw 10vw;
+        
+    }
+    
+    .page1img{
+        grid-area:2/2/3/3;
+    
+    }
+    .page1img img{
+        height: 100%;
+        width:100%;
+    }
+    
+    /* .discription1 */
+    .discription1{
+        flex:1;
+        display: grid;
+        grid-template-columns: 5vw 90vw 5vw ;
+        grid-template-rows: 5vw auto auto;
+    
+    }
+    .discription1 div:nth-child(1){
+        grid-area:2/2/3/3;
+        font-size: 10vw;
+        /* padding-top: 5vw; */
+        padding-bottom: 3vw;
+    }
+    .discription1 div:nth-child(2){
+        grid-area:3/2/4/3;
+        font-size:6vw;
+        padding-bottom:5vw;
+        /* padding-bottom: 4vw; */
+    }
+    
+    
+    
+    .discription2{
+        flex:1;
+        display: grid;
+        grid-template-columns: 5vw 90vw 5vw ;
+        grid-template-rows: 5vw auto auto;
+    
+    }
+    .discription2 div:nth-child(1){
+        grid-area:2/2/3/3;
+        font-size: 8vw;
+        /* padding-top: 5vw; */
+        padding-bottom: 3vw;
+    }
+    .discription2 div:nth-child(2){
+        grid-area:3/2/4/3;
+        font-size:6vw;
+        /* padding-bottom: 4vw; */
+        padding-bottom: 10vw;
+    }
+    
+    
+    
+    
+    .discription3{
+        flex:1;
+        display: grid;
+        grid-template-columns: 5vw 90vw 5vw ;
+        grid-template-rows: 10vw auto auto;
+    
+    }
+    .discription3 div:nth-child(1){
+        grid-area:2/2/3/3;
+        font-size: 10vw;
+        /* padding-top: 5vw; */
+        padding-bottom: 3vw;
+    }
+    .discription3 div:nth-child(2){
+        grid-area:3/2/4/3;
+        font-size:6vw;
+        padding-bottom: 5vw;
+    }
+    
+}
+
+
 
 .features{
     background-image: radial-gradient(rgb(106, 162, 207),rgb(11,83,143));
@@ -198,11 +385,7 @@
     text-align:left;
     padding:0px 5px 0px 5px;
 }
-.feature-div2 div:nth-child(1){
-    grid-area: 1/1/2/2;
-    text-align:left;
-    /* padding:0px 5px 0px 5px; */
-}
+
 .feature-div2 div:nth-child(2){
     grid-area: 1/3/2/4;
     text-align:left;
@@ -213,7 +396,7 @@
     text-align:left;
     /* padding:0px 5px 0px 5px; */
 }
-.feature-div2 p{
+.feature-discription{
     font-size: 1.5vw;
     height: 15vw;
     color:aliceblue;
@@ -224,6 +407,36 @@
     /* height: 5vw; */
     height: 7vw;
     /* border: 0px; */
+}
+
+@media screen and (max-width:800px){
+    .features{
+        background-image: radial-gradient(rgb(106, 162, 207),rgb(11,83,143));
+        display:flex;
+        flex-wrap: wrap;
+    }
+    
+    .feature-div1{
+        flex:1;
+        display:grid;
+        grid-template-columns:5vw 60vw 35vw;
+        grid-template-rows:5vw auto auto 5vw;
+    }
+    .feature-div1 div:nth-child(1){
+        grid-area:2/2/3/3;
+        font-size: 10vw;
+        padding-top:10vw;
+        padding-bottom: 5vw;
+        color:aliceblue;
+    }
+    .feature-div1 div:nth-child(2){
+        grid-area:3/2/4/3;
+        font-size: 5vw;
+        line-height: 8vw;
+        color:aliceblue;
+    }
+
+    
 }
 
 

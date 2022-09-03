@@ -8,6 +8,12 @@ function Intro(){
             <h1>TAKING AUTOMATION TO THE NEW </h1>
             <h1>HEIGHTS</h1>
             </div>
+            <div className='intro-head2'>
+                <h1>
+                    TAKING AUTOMATION 
+                </h1>
+                <h1>TO THE NEW HEIGHTS</h1>
+            </div>
             </div>
             <div className='intro-content'>
             <div className='intro-content1'>

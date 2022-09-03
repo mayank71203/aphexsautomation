@@ -41,7 +41,7 @@ function MobiTech(){
             <div className="MobiTech2">
                 <div className="MobiTech2-left">
                     <div>How the App Works</div>
-                    <div>/0</div>
+                    <div>/01</div>
                     <div>
                         <p>Personalized</p>
                         <p>Experience</p>

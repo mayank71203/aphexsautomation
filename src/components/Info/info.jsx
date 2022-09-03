@@ -7,10 +7,10 @@ function info(){
             <div className='info-div1-left'>
                 <div className='info-div1-left-up'>
                     
-                        <p className=".info-div1-left-up-p">Automate</p>
-                        <p className=".info-div1-left-up-p">Like</p>
+                        <p className=".info-div1-left-up-p">Automate Like Never Before</p>
+                        {/* <p className=".info-div1-left-up-p">Like</p>
                         <p className=".info-div1-left-up-p">Never</p>
-                        <p className=".info-div1-left-up-p">Before</p>
+                        <p className=".info-div1-left-up-p">Before</p> */}
                     
 
                 </div>
@@ -103,12 +103,14 @@ function info(){
                     <div className='feature-head'>
                     High Speed perfomance
                     </div>
-                    <p>
+                    <div className='feature-discription'>
+                    
                         I'm a paragraph. Click here to add your 
                         own text and edit me. It's easy. Just Click
                         "Edit Text" or double click me to add your
                         own content and make changes to the font. 
-                    </p>
+                    
+                    </div>
 
                 </div>
                 <div>
@@ -116,12 +118,12 @@ function info(){
                     24/7 Online Support
                     {/* <h3>Support</h3> */}
                     </div>
-                    <p>
+                    <div className='feature-discription'>
                         I'm a paragraph. Click here to add your 
                         own text and edit me. It's easy. Just Click
                         "Edit Text" or double click me to add your
                         own content and make changes to the font. 
-                    </p>
+                    </div>
 
                 </div>
                 <div>
@@ -129,12 +131,12 @@ function info(){
                     Airtight Security
                     {/* <h3>Security</h3> */}
                     </div>
-                    <p>
+                    <div  className='feature-discription'>
                         I'm a paragraph. Click here to add your 
                         own text and edit me. It's easy. Just Click
                         "Edit Text" or double click me to add your
                         own content and make changes to the font. 
-                    </p>
+                    </div>
 
 
                 </div>

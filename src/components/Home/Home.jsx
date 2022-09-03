@@ -5,12 +5,14 @@ function Home(){
             <div className='home-content'>
             <div>
             <div className="home-content1">
-                Discover New Possiblities
+                Discover New 
+                <br></br>Possiblities
             </div>
             </div>
             <div className="home-content2">
                 Try it yourself for free. Download now.
             </div>
+            <div className='home-content3'>Try it yourself. Download now.</div>
             <div className='download-app'>
 
             <div ><img src='appstore1.jpg' alt='appstore' className='Image'></img></div>

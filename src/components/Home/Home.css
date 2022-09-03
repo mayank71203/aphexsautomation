@@ -1,25 +1,18 @@
 .Home{
     display:flex;
     height:100vh;
-    /* grid-template-columns: 50vw 50vw;
-    grid-template-rows: 50vw 50vw; */
     background-image: radial-gradient(rgb(167, 186, 210) ,rgb(11, 83, 143) 80%);
-    /* position: relative; */
     width:100%
 }
 .home-content{
-    /* grid-column: 1/2; */
     flex:1;
     margin:auto;
 }
 .home-content1{
-    /* grid-column: 1/2; */
     font-size: 5vw;
-    /* position: center; */
     margin: auto;
     text-align: center;
     color: aliceblue;
-    /* font-family: 'Pirata One', cursive; */
     font-family: 'Times New Roman', Times, serif;
 }
 .home-content2{
@@ -30,6 +23,9 @@
     padding: 10px 0px 10px 0px;
 
 }
+.home-content3{
+    display:none;
+}
 .home-image{
     flex:1;
     position:relative;
@@ -39,7 +35,6 @@
     display:grid;
     grid-template-columns:10vw 5vw 10vw;
     grid-template-rows: 3vw;
-    /* grid-column-start:5vh; */
     justify-content:center;
     
 
@@ -50,9 +45,59 @@
     border: solid 1px white;
     border-radius: 5px;
 
-    /* padding:10px; */
 }
-/* .appstore image{
-    height: 100%;
-    width: 100% ;
-}  */
+
+
+
+@media screen and (max-width:800px){
+    .Home{
+        display:block;
+        min-height:200vw;
+        background-image:linear-gradient(to bottom,rgb(11, 83, 143),rgb(3, 55, 97),rgb(11, 83, 143))
+    }
+    .home-content{
+        display:block;
+        float:left;
+    }
+    .home-content1{
+        color: aliceblue;
+        text-align: left;
+        font-size: 12vw;
+        padding-left: 5vw;
+        padding-top: 5vw;
+   
+    }
+    
+    .home-content2{
+        display:none;
+    } 
+    .home-content3{
+        display: inline;
+        font-size: 6vw;
+        text-align: left;
+        padding:10vw 0vw 0vw 5vw;
+        color: aliceblue;
+    }
+    .download-app{
+        display:grid;
+        grid-template-columns:33.3vw 33.3vw 33.3vw;
+        grid-template-rows: 10vw 5vw 10vw;
+        padding-top: 10vw;
+    }
+    .download-app div{
+        
+        height:100%;
+        width:100%;
+    }
+    .download-app div:nth-child(1){
+        grid-area: 1/2/2/3;
+    }
+    .download-app div:nth-child(3){
+        grid-area: 3/2/4/3;
+    }
+
+    .home-image{
+        height:100%;
+    }
+
+}

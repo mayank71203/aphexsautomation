@@ -3,27 +3,22 @@
     background-repeat: no-repeat;
     background-attachment:fixed;
     background-size: cover;
-
-    /* transition-property: transform;
-    transition-delay: 0.5ms; */
-    /* transform: 0.5s; */
-    /* background-color: black; */
 }
 .intro-head{
     text-align: center;
     height:20vw;
     display:flex;
-    /* background-color: black; */
-    /* opacity: 0.1; */
 }
 .intro-head1{
     color:aliceblue;
     margin:auto;
     font-size:2vw;
 }
+.intro-head2{
+    display: none;
+}
 .intro-content{
     text-align:center;
-    /* height:15vw; */
     display:flex;
     padding:0px 0px 20px 0px;
 }
@@ -37,7 +32,6 @@
     height:10vw;
     background-color: black;
     opacity: 0.5;
-    /* z-index: 1; */
 }
 .startNow div{
     margin: auto;
@@ -45,5 +39,21 @@
     padding:10px 20px 10px 20px;
     border:solid 2px rgb(255, 255, 255);
     border-radius: 5px;
-    /* z-index: 2; */
 }
+
+/* @media screen and (max-width:800px) {
+    .intro{
+        background-image:url("/public/stockImg2.jpg") ;
+        background-attachment: scroll;
+        background-size:cover;
+        height:50vh;
+    }
+    .intro-head1{
+        display: none;
+    }
+    .intro-head2{
+        display:block;
+        color:aliceblue;
+    }
+
+} */

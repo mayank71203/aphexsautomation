@@ -1,4 +1,7 @@
 import './navbar.css';
+// import {FaBars} from 'react-icon';
+
+
 function navbar(){
     return(
         
@@ -20,6 +23,12 @@ function navbar(){
                 About Us
 
             </div>
+            </div>
+
+            <div className='btnNav'>
+                <div>
+                    <button className='navBtn'>click me</button>
+                </div>
             </div>
         </div>
     )
